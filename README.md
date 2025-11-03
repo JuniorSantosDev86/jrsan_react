@@ -269,10 +269,11 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para de
 ## 👨‍💻 Autor
 
 **Junior Santos**
-- Portfolio: [https://junior-santos.dev](https://junior-santos.dev)
+- Portfolio: [(https://juniorsantosdev86.github.io/)
 - LinkedIn: [@junior-santos](https://linkedin.com/in/junior-santos)
-- GitHub: [@junior-santos](https://github.com/junior-santos)
-- Email: junior@example.com
+- GitHub: [@JuniorSantosDev86](https://github.com/JuniorSantosDev86)
+- Email: juniorsantos.dev86@gmail.com
+
 
 ## 🙏 Agradecimentos
 
