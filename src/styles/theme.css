@@ -1,0 +1,333 @@
+/* CSS Variables for Light and Dark Themes */
+
+:root {
+  /* Light theme colors */
+  --background: 220 45% 98%;
+  --foreground: 231 28% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 231 28% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 231 28% 12%;
+  --primary: 262 83% 58%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 224 32% 92%;
+  --secondary-foreground: 231 28% 12%;
+  --muted: 225 33% 94%;
+  --muted-foreground: 228 18% 42%;
+  --accent: 225 33% 92%;
+  --accent-foreground: 231 28% 12%;
+  --destructive: 0 72% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 225 30% 86%;
+  --input: 225 30% 86%;
+  --ring: 262 83% 58%;
+  --radius: 0.75rem;
+
+  /* Portfolio gradients */
+  --portfolio-1-start: #f093fb;
+  --portfolio-1-end: #f5576c;
+  --portfolio-2-start: #4facfe;
+  --portfolio-2-end: #00f2fe;
+  --portfolio-3-start: #43e97b;
+  --portfolio-3-end: #38f9d7;
+  --portfolio-4-start: #fa709a;
+  --portfolio-4-end: #fee140;
+
+  /* Service gradients */
+  --service-web-start: #667eea;
+  --service-web-end: #764ba2;
+  --service-design-start: #f093fb;
+  --service-design-end: #f5576c;
+  --service-mobile-start: #43e97b;
+  --service-mobile-end: #38f9d7;
+  --service-marketing-start: #ff9a9e;
+  --service-marketing-end: #fecfef;
+
+  /* Hero and CTA gradient */
+  --hero-gradient-start: #667eea;
+  --hero-gradient-end: #764ba2;
+  --cta-gradient-start: #667eea;
+  --cta-gradient-end: #764ba2;
+
+  /* Background patterns */
+  --hero-bg: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-end) 100%);
+  --cta-bg: linear-gradient(135deg, var(--cta-gradient-start) 0%, var(--cta-gradient-end) 100%);
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --background: 230 35% 11%;
+  --foreground: 220 40% 96%;
+  --card: 231 37% 15%;
+  --card-foreground: 220 40% 96%;
+  --popover: 231 37% 15%;
+  --popover-foreground: 220 40% 96%;
+  --primary: 262 83% 68%;
+  --primary-foreground: 230 45% 12%;
+  --secondary: 229 32% 22%;
+  --secondary-foreground: 220 40% 96%;
+  --muted: 228 26% 20%;
+  --muted-foreground: 220 22% 74%;
+  --accent: 228 28% 24%;
+  --accent-foreground: 220 40% 96%;
+  --destructive: 0 72% 50%;
+  --destructive-foreground: 230 45% 12%;
+  --border: 229 30% 24%;
+  --input: 229 30% 24%;
+  --ring: 262 83% 58%;
+
+  /* Darker versions for better contrast */
+  --portfolio-1-start: #d666a3;
+  --portfolio-1-end: #c23854;
+  --portfolio-2-start: #2d7bc6;
+  --portfolio-2-end: #00bcc6;
+  --portfolio-3-start: #2bb159;
+  --portfolio-3-end: #1fc6a5;
+  --portfolio-4-start: #c84968;
+  --portfolio-4-end: #cc9e20;
+
+  /* Service gradients for dark theme */
+  --service-web-start: #4a5bb8;
+  --service-web-end: #5a3d82;
+  --service-design-start: #d666a3;
+  --service-design-end: #c23854;
+  --service-mobile-start: #2bb159;
+  --service-mobile-end: #1fc6a5;
+  --service-marketing-start: #c85d7c;
+  --service-marketing-end: #de8f6e;
+
+  /* Hero and CTA gradients for dark theme */
+  --hero-gradient-start: #4a5bb8;
+  --hero-gradient-end: #5a3d82;
+  --cta-gradient-start: #4a5bb8;
+  --cta-gradient-end: #5a3d82;
+}
+
+/* Global styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Header glass effect */
+.header-glass {
+  position: relative;
+  --header-progress: 0;
+}
+
+.header-glass::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  height: calc(100% + 24px);
+  background: rgba(8, 9, 20, 0.75);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.25);
+  z-index: -1;
+  opacity: calc(0.2 + var(--header-progress, 0) * 0.6);
+  transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, backdrop-filter 0.4s ease, opacity 0.4s ease;
+}
+
+.header-glass-scrolled::after {
+  background: rgba(6, 7, 16, 0.9);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.35);
+  box-shadow: 0 28px 48px -24px rgba(10, 12, 24, 0.65);
+}
+
+/* Glass card effect */
+.glass-card {
+  background: hsla(var(--card), 0.6);
+  backdrop-filter: blur(20px);
+  border: 1px solid hsla(var(--border), 0.2);
+}
+
+/* Portfolio card gradients */
+.portfolio-card-1 {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--portfolio-1-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--portfolio-1-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--portfolio-1-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--portfolio-1-end) 40%, transparent);
+}
+
+.portfolio-card-2 {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--portfolio-2-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--portfolio-2-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--portfolio-2-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--portfolio-2-end) 40%, transparent);
+}
+
+.portfolio-card-3 {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--portfolio-3-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--portfolio-3-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--portfolio-3-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--portfolio-3-end) 40%, transparent);
+}
+
+.portfolio-card-4 {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--portfolio-4-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--portfolio-4-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--portfolio-4-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--portfolio-4-end) 40%, transparent);
+}
+
+/* Service card gradients */
+.service-web {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--service-web-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--service-web-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--service-web-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--service-web-end) 40%, transparent);
+}
+
+.service-design {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--service-design-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--service-design-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--service-design-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--service-design-end) 40%, transparent);
+}
+
+.service-mobile {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--service-mobile-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--service-mobile-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--service-mobile-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--service-mobile-end) 40%, transparent);
+}
+
+.service-marketing {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--service-marketing-start) 70%, rgba(255, 255, 255, 0.15)) 0%,
+    color-mix(in srgb, var(--service-marketing-end) 70%, rgba(255, 255, 255, 0.15)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--service-marketing-end) 35%, transparent);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--service-marketing-end) 40%, transparent);
+}
+
+/* Hero background */
+.hero-bg {
+  background: var(--hero-bg);
+}
+
+/* CTA background */
+.cta-bg {
+  background: var(--cta-bg);
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Focus ring styles */
+.focus-ring {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+/* Enhanced shadows for dark theme */
+[data-theme="dark"] .shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom gradient text */
+.gradient-text-primary {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Skill strip animation */
+.skills-marquee {
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+  width: max-content;
+}
+
+.skills-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skills-marquee {
+    animation: none;
+    transform: none !important;
+  }
+}
+
+/* Portfolio carousel indicators */
+.carousel-indicator {
+  transition: all 0.3s ease;
+  background: hsla(var(--muted-foreground), 0.4);
+  will-change: transform, background-color;
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel-indicator.active {
+  background: hsl(var(--primary));
+  transform: translate3d(0, 0, 0) scale(1.2);
+}
+
+/* Hover effects */
+.hover-glow:hover {
+  box-shadow: 0 0 20px hsla(var(--primary), 0.3);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive text sizes */
+@media (max-width: 640px) {
+  .text-responsive-xl {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 641px) {
+  .text-responsive-xl {
+    font-size: 3.5rem;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-responsive-xl {
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+}

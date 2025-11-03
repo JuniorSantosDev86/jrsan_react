@@ -1,0 +1,11 @@
+[
+  { "path": "/", "changefreq": "weekly", "priority": 1.0 },
+  { "path": "/projects/fluxgrowth-studio", "changefreq": "monthly", "priority": 0.8 },
+  { "path": "/projects/ritus-de-luz", "changefreq": "monthly", "priority": 0.8 },
+  { "path": "/projects/ritus-de-luz-website", "changefreq": "monthly", "priority": 0.8 },
+  { "path": "/projects/zenbodhi", "changefreq": "monthly", "priority": 0.7 },
+  { "path": "/services/web-development", "changefreq": "monthly", "priority": 0.9 },
+  { "path": "/services/ui-ux-design", "changefreq": "monthly", "priority": 0.9 },
+  { "path": "/services/mobile-apps", "changefreq": "monthly", "priority": 0.9 },
+  { "path": "/services/digital-marketing", "changefreq": "monthly", "priority": 0.8 }
+]

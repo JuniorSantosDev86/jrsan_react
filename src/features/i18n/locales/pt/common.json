@@ -1,0 +1,779 @@
+{
+  "navigation": {
+    "home": "Início",
+    "portfolio": "Portfólio",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "OLÁ, EU SOU O JUNIOR SANTOS",
+    "title": "Desenvolvedor Criativo & Design Fluído",
+    "subtitle": "Ideias que Viram Resultados",
+    "description": "Transformo conceitos em produtos digitais eficientes e bem-acabados.\nCom React, Next.js e Design Estratégico, desenvolvo soluções que unem performance, estética e clareza.\nDo design ao código, meu foco é entregar experiências consistentes e marcas mais fortes.",
+    "badge": "Especialista em React, Flutter, UI/UX Design e Desenvolvimento Web de Alta Performance",
+    "cta": "Conheça meus Serviços",
+    "secondaryCta": "Ver Portfólio"
+  },
+  "portfolio": {
+    "title": "PORTFÓLIO",
+    "badge": "Projetos em Destaque",
+    "subtitle": "Alguns projetos que refletem meu estilo, lógica limpa, design fluido e foco total na experiência do usuário.",
+    "projects": {
+      "landingPage": {
+        "title": "Landing Page Ritus de Luz",
+        "category": "Web Development",
+        "description": "Landing page da Ritus de Luz e criação da identidade visual da marca desenvolvida no Figma com responsividade completa.",
+        "tags": [
+          "Flutter",
+          "Dart",
+          "Firebase"
+        ]
+      },
+      "ritusWebsite": {
+        "title": "Website Ritus de Luz",
+        "category": "Tipo: Website",
+        "description": "Website desenvolvido com foco em espiritualidade moderna, estética sensorial e storytelling visual. Uma experiência digital leve e inspiradora criada para conectar propósito, beleza e tecnologia.",
+        "tags": [
+          "Flutter",
+          "Dart",
+          "Figma",
+          "Illustrator",
+          "Photoshop"
+        ]
+      },
+      "zenbodhiApp": {
+        "title": "ZenBodhi — Meditação & Consciência Plena",
+        "category": "Tipo: Aplicativo Mobile",
+        "description": "Aplicativo mobile de meditação e autodesenvolvimento inspirado no Budismo Zen. Criado para guiar o usuário em práticas de atenção plena, equilíbrio emocional e expansão da consciência.",
+        "tags": [
+          "React Native",
+          "Figma",
+          "Illustrator",
+          "Photoshop",
+          "Firebase"
+        ]
+      },
+      "fluxGrowthStudio": {
+        "title": "Landing Page FluxGrowth Studio",
+        "category": "Landing Page",
+        "description": "Landing page moderna, responsiva e alinhada à identidade visual estratégica da FluxGrowth Studio.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Figma",
+          "Illustrator",
+          "Tailwind CSS"
+        ]
+      }
+    },
+    "viewProject": "Ver Projeto"
+  },
+  "about": {
+    "title": "SOBRE",
+    "subtitle": "",
+    "paragraphs": [
+      "Sou Junior Santos, desenvolvedor especializado em React, Flutter e UI/UX.",
+      "Tenho como foco transformar conceitos em produtos digitais modernos, performáticos e com identidade.",
+      "Com um olhar estratégico para experiência do usuário, crio interfaces que funcionam bem, transmitem valor e fortalecem conexões reais entre marcas e pessoas.",
+      "Cada projeto é uma chance de construir algo memorável, unindo tecnologia, design e emoção."
+    ]
+  },
+  "aboutActions": {
+    "portfolio": "Ver Portfólio",
+    "contact": "Entre em Contato"
+  },
+  "skills": {
+    "title": "ESPECIALIDADE NAS SEGUINTES LINGUAGENS E FERRAMENTAS"
+  },
+  "services": {
+    "title": "SERVIÇOS",
+    "subtitle": "Soluções digitais sob medida para o seu projeto",
+    "learnMore": "Saiba Mais",
+    "bottomMessage": "Cada projeto começa com uma boa conversa. Conte sua ideia e eu mostro como ela pode virar uma experiência digital incrível.",
+    "bottomCta": "Vamos Conversar",
+    "webDevelopment": {
+      "title": "WEB DEVELOPMENT",
+      "description": "Desenvolvimento web, UI/UX design, websites e templates de web design.",
+      "tags": [
+        "Landing Page",
+        "Sites Web",
+        "React"
+      ]
+    },
+    "mobileApps": {
+      "title": "APLICATIVOS MOBILE",
+      "description": "Design e desenvolvimento de aplicativos para Android e iOS.",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "App Design",
+        "React Native"
+      ]
+    },
+    "uiuxDesign": {
+      "title": "UI/UX DESIGN",
+      "description": "Pesquisa, prototipagem e design de interfaces centradas na experiência do usuário.",
+      "tags": [
+        "Wireframe",
+        "Prototipagem",
+        "Figma",
+        "React"
+      ]
+    },
+    "marketingDigital": {
+      "title": "MARKETING DIGITAL",
+      "description": "Planejamento e execução de estratégias de marketing, tráfego pago e automação para impulsionar resultados.",
+      "tags": [
+        "SEO",
+        "Tráfego Pago",
+        "Copywriting"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Vamos transformar sua ideia em realidade!",
+    "subtitle": "Do primeiro rascunho ao aplicativo final, entrego design lógico, moderno e responsivo, sempre com foco na UI/UX e na experiência fluida.",
+    "button": "Entre em Contato",
+    "form": {
+      "title": "Envie uma mensagem",
+      "subtitle": "Preencha o formulário com os detalhes do projeto e retornarei o mais rápido possível.",
+      "name": "Nome completo",
+      "namePlaceholder": "Como posso te chamar?",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Qual é o objetivo do projeto?",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte mais sobre sua ideia, prazos e necessidades.",
+      "submit": "Enviar mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada! Em breve você receberá um retorno no seu e-mail.",
+      "error": "Não foi possível enviar agora. Tente novamente ou escreva para juniorsantos.dev86@gmail.com."
+    },
+    "directChannels": "Canais diretos"
+  },
+  "footer": {
+    "credits": "Criado e desenvolvido por",
+    "developer": "Junior Santos",
+    "year": "© 2025",
+    "description": "Desenvolvedor focado em criar experiências digitais únicas.\nTransformo ideias em aplicações funcionais e interfaces intuitivas, unindo design, desempenho e uma visão centrada no usuário.",
+    "quickLinks": "Links Rápidos",
+    "contactHeading": "Contato",
+    "madeWith": "Feito com"
+  },
+  "accessibility": {
+    "skipToContent": "Pular para o conteúdo",
+    "toggleTheme": "Alternar tema",
+    "toggleLanguage": "Alternar idioma",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "previousProject": "Projeto anterior",
+    "nextProject": "Próximo projeto",
+    "viewProjectDetails": "Ver detalhes do projeto"
+  },
+  "servicesDetails": {
+    "webDevelopment": {
+      "seo": {
+        "title": "Web Development – JrSan Creative Development",
+        "description": "Estratégias completas de desenvolvimento web com foco em experiência, performance e resultados."
+      },
+      "labels": {
+        "serviceName": "Web Development",
+        "backToServices": "Voltar aos serviços",
+        "brandName": "JrSan Creative Development"
+      },
+      "hero": {
+        "tag": "Web Development",
+        "title": "Web Development – Experiências Digitais com Propósito",
+        "paragraphs": [
+          "Na JrSan Creative Development, o desenvolvimento web é pensado para impactar, inspirar e gerar resultados reais. Cada projeto une estratégia, design e tecnologia para contar histórias e transformar visitantes em clientes."
+        ]
+      },
+      "deliverables": {
+        "title": "O que entregamos",
+        "items": [
+          {
+            "title": "Landing Pages de Alta Conversão",
+            "description": "Construídas com storytelling visual e foco total em performance."
+          },
+          {
+            "title": "Websites Profissionais e Institucionais",
+            "description": "Experiências digitais que fortalecem e elevam a presença da marca."
+          },
+          {
+            "title": "Interfaces Modernas e Responsivas",
+            "description": "Layout fluido que se adapta com excelência a cada dispositivo."
+          },
+          {
+            "title": "Soluções Personalizadas",
+            "description": "Código limpo, escalável e pronto para crescer junto com o negócio."
+          }
+        ]
+      },
+      "caseHighlight": {
+        "title": "Case em Destaque – FluxGrowth Studio",
+        "description": "Exemplo do nosso processo: uma landing page moderna e animada, em tons de roxo e cinza, traduzindo sofisticação e tecnologia. O resultado é uma interface fluida, voltada à conversão e fiel à identidade da marca."
+      },
+      "technologies": {
+        "title": "Tecnologias Utilizadas",
+        "description": "Ferramentas que garantem velocidade, estabilidade e design impecável."
+      },
+      "results": {
+        "title": "Resultados",
+        "items": [
+          "Experiências digitais marcantes, que unem estética e estratégia.",
+          "Maior engajamento e conversão com execução focada em performance.",
+          "Design inteligente e adaptável, preparado para escalar com cada cliente."
+        ]
+      },
+      "process": {
+        "title": "Processo de Criação",
+        "steps": [
+          {
+            "title": "Descoberta & Estratégia",
+            "description": "Imersão no público e nos objetivos da marca para alinhar visão e narrativa."
+          },
+          {
+            "title": "Prototipagem UI/UX",
+            "description": "Wireframes e interfaces interativas no Figma, com foco total em conversão."
+          },
+          {
+            "title": "Desenvolvimento Front-End",
+            "description": "Implementação completa em React, com performance otimizada e código escalável."
+          },
+          {
+            "title": "Testes & Lançamento",
+            "description": "Entrega estável, segura e adaptada a múltiplos dispositivos e cenários reais."
+          }
+        ]
+      },
+      "closing": {
+        "highlight": "✦ Transformamos conceitos em interfaces que emocionam e vendem.",
+        "message": "Esse é o DNA da JrSan Creative Development. Vamos construir a próxima experiência juntos?",
+        "cta": "Falar com a JrSan"
+      }
+    },
+    "mobileApps": {
+      "seo": {
+        "title": "Aplicativos Mobile – JrSan Creative Development",
+        "description": "Aplicativos modernos e eficientes para Android e iOS, com design e tecnologia lado a lado."
+      },
+      "labels": {
+        "serviceName": "Mobile Apps",
+        "backToServices": "Voltar aos serviços"
+      },
+      "hero": {
+        "tag": "Mobile Apps",
+        "title": "Mobile Apps – Ideias que Cabem na Palma da Mão",
+        "paragraphs": [
+          "Desenvolvemos aplicativos modernos, bonitos e performáticos para Android e iOS, unindo design envolvente, engenharia robusta e jornadas sem atrito. Cada projeto nasce para resolver problemas reais com usabilidade fluida e visual profissional."
+        ]
+      },
+      "highlights": {
+        "title": "O que entregamos",
+        "items": [
+          "Aplicativos multiplataforma em Flutter e React Native.",
+          "Interfaces nativas e responsivas, com animações suaves.",
+          "Design centrado no usuário, equilibrando praticidade e encanto.",
+          "Código limpo e escalável, pronto para evoluir com o produto."
+        ]
+      },
+      "stack": {
+        "title": "Tecnologias & Stack"
+      },
+      "process": {
+        "title": "Processo de Criação",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Descoberta & Mapeamento de Funcionalidades",
+            "description": "Definimos objetivos, funcionalidades-chave e contextos de uso para guiar o roadmap."
+          },
+          {
+            "step": "02",
+            "title": "Prototipagem no Figma",
+            "description": "Fluxos e telas projetados com foco em narrativa, experiência e usabilidade."
+          },
+          {
+            "step": "03",
+            "title": "Desenvolvimento Mobile",
+            "description": "Construção em Flutter/Dart ou React Native com componentes reutilizáveis e integrações sólidas."
+          },
+          {
+            "step": "04",
+            "title": "Testes, Otimização & Publicação",
+            "description": "QA funcional, ajustes de performance e publicação nas lojas com suporte completo."
+          }
+        ]
+      },
+      "closing": {
+        "highlight": "✦ Do conceito ao toque — transformamos ideias em experiências digitais completas.",
+        "message": "Vamos construir o próximo aplicativo com a JrSan Creative Development?",
+        "cta": "Falar com a JrSan"
+      }
+    },
+    "uiuxDesign": {
+      "seo": {
+        "title": "UI/UX Design – JrSan Creative Development",
+        "description": "Interfaces centradas no usuário, prototipagem avançada e experiências digitais encantadoras."
+      },
+      "labels": {
+        "serviceName": "UI/UX Design",
+        "backToServices": "Voltar aos serviços"
+      },
+      "hero": {
+        "tag": "UI/UX Design",
+        "title": "UI/UX Design – Interfaces que Encantam e Convertem",
+        "paragraphs": [
+          "Na JrSan Creative Development, o design vai além da estética. Cada interface nasce de pesquisa, empatia e estratégia para entregar experiências digitais intuitivas e memoráveis.",
+          "Nosso foco é conectar marcas e pessoas com jornadas fluidas, arquiteturas inteligentes e prototipagens funcionais que geram engajamento e resultados reais."
+        ]
+      },
+      "highlights": {
+        "title": "O que entregamos",
+        "items": [
+          "Wireframes e prototipagem interativa no Figma.",
+          "Designs centrados no usuário, sustentados por UX Research.",
+          "Sistemas de UI escaláveis e coerentes.",
+          "Experimentos de usabilidade e microinterações que elevam a experiência."
+        ]
+      },
+      "quote": {
+        "title": "✦ Cada clique é uma conexão.",
+        "description": "Toda interface que desenhamos conta uma história e fortalece relações. Insights reais viram protótipos imersivos e, por fim, experiências que encantam e convertem."
+      },
+      "toolkit": {
+        "title": "Toolkit Criativo",
+        "description": "Ferramentas e frameworks que garantem consistência, agilidade e experiências memoráveis."
+      },
+      "process": {
+        "title": "Processo Criativo",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Pesquisa & Análise",
+            "description": "Estudo profundo do público, jornada e comportamento para alinhar objetivos e expectativas."
+          },
+          {
+            "step": "02",
+            "title": "Arquitetura de Informação",
+            "description": "Navegação clara e fluida, mapeando fluxos e interações-chave."
+          },
+          {
+            "step": "03",
+            "title": "Prototipagem UI/UX",
+            "description": "Interfaces funcionais e testáveis, com interações que validam decisões de design."
+          },
+          {
+            "step": "04",
+            "title": "Entrega Visual & Interativa",
+            "description": "Design final refinado, documentado e pronto para qualquer stack de implementação."
+          }
+        ]
+      },
+      "closing": {
+        "highlight": "✦ Cada clique é uma conexão. Cada interface, uma história bem contada.",
+        "message": "Assim nasce o design na JrSan Creative Development. Vamos pensar na próxima experiência juntos?",
+        "cta": "Falar com a JrSan"
+      }
+    },
+    "digitalMarketing": {
+      "seo": {
+        "title": "Marketing Digital – JrSan Creative Development",
+        "description": "Estratégias completas de tráfego pago, copywriting, SEO e automações para crescimento real."
+      },
+      "labels": {
+        "serviceName": "Marketing Digital",
+        "backToServices": "Voltar aos serviços"
+      },
+      "hero": {
+        "tag": "Marketing Digital",
+        "title": "Marketing Digital – Estratégia, Criatividade e Crescimento",
+        "paragraphs": [
+          "Na JrSan Creative Development, marketing é um ecossistema inteligente. Estratégia, design, tecnologia e performance se unem para criar campanhas que atraem, engajam e convertem com autenticidade.",
+          "Planejamos e executamos iniciativas que transformam marcas em experiências vivas e resultados concretos — equilibrando narrativa, dados e impacto real."
+        ]
+      },
+      "deliverables": {
+        "title": "O que entregamos",
+        "items": [
+          "Gestão de tráfego pago (Meta Ads, Google Ads).",
+          "Copywriting estratégico e criativo.",
+          "SEO e otimização de presença digital.",
+          "Criação de funis e automações personalizadas."
+        ]
+      },
+      "toolkit": {
+        "title": "Ferramentas & Stack",
+        "description": "Plataformas que sustentam velocidade, clareza e execução de alta performance."
+      },
+      "process": {
+        "title": "Processo Estratégico",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Diagnóstico da Marca",
+            "description": "Análise da presença digital, público-alvo e posicionamento para revelar oportunidades reais de crescimento."
+          },
+          {
+            "step": "02",
+            "title": "Planejamento de Conteúdo & Tráfego",
+            "description": "Estrutura integrada de campanhas alinhando objetivos, mensagens e canais de aquisição."
+          },
+          {
+            "step": "03",
+            "title": "Criação Visual & Copywriting",
+            "description": "Mensagens com propósito, peças impactantes e storytelling que conecta com a audiência certa."
+          },
+          {
+            "step": "04",
+            "title": "Monitoramento & Otimização",
+            "description": "Análise contínua de métricas, ajustes de campanha e relatórios claros para decisões estratégicas."
+          }
+        ]
+      },
+      "closing": {
+        "highlight": "✦ Com estratégia, estética e propósito, ajudamos marcas a crescer com autenticidade.",
+        "message": "Vamos impulsionar o próximo capítulo da sua marca com a JrSan Creative Development?",
+        "cta": "Falar com a JrSan"
+      }
+    }
+  },
+  "projectDetails": {
+    "fluxGrowthStudio": {
+      "seo": {
+        "title": "Landing Page FluxGrowth Studio – Projeto",
+        "description": "Detalhes da landing page e da identidade visual desenvolvidas para a FluxGrowth Studio."
+      },
+      "labels": {
+        "highlightBadge": "Projeto em Destaque",
+        "backToPortfolio": "Voltar ao portfólio",
+        "detailChip": "Detalhes do Projeto"
+      },
+      "hero": {
+        "title": "Criação de Landing Page e Identidade Visual — FluxGrowth Studio",
+        "summary": "Projeto desenvolvido com foco em posicionamento digital, design estratégico e performance visual."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "Visão Geral do Projeto",
+          "paragraphs": [
+            "A FluxGrowth Studio é uma agência digital focada em crescimento de marcas e negócios. O objetivo foi criar uma landing page moderna, responsiva e impactante, alinhada a uma identidade visual marcante que traduzisse tecnologia, confiança e energia criativa.",
+            "O design foi pensado para representar a essência da marca — inovação, performance e resultados reais — utilizando Figma para o protótipo e React para todo o desenvolvimento web.",
+            "A narrativa estratégica mirou clientes de médio e alto padrão, apresentando os serviços da agência com clareza, fluidez e apelo visual para ampliar reconhecimento e potencial de conversão."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "Etapas do Trabalho",
+          "items": [
+            {
+              "title": "1. Pesquisa & Estratégia",
+              "bullets": [
+                "Definição da personalidade da marca e análise de concorrentes diretos.",
+                "Construção do moodboard com referências de design tech contemporâneo.",
+                "Mapeamento da jornada do usuário para navegação fluida e intuitiva."
+              ]
+            },
+            {
+              "title": "2. Identidade Visual",
+              "bullets": [
+                "Criação do logotipo no Illustrator com formas minimalistas e tipografia geométrica.",
+                "Desenvolvimento de paleta escura e sofisticada (preto, roxo e cinza).",
+                "Produção de mockups e variações visuais para redes sociais e apresentações."
+              ]
+            },
+            {
+              "title": "3. Design da Landing Page",
+              "bullets": [
+                "Protótipo da interface no Figma aplicando princípios de UI/UX.",
+                "Hierarquia visual estratégica priorizando títulos, CTAs e seções de credibilidade.",
+                "Criação de animações suaves e efeitos de transição para transmitir dinamismo."
+              ]
+            },
+            {
+              "title": "4. Desenvolvimento em React",
+              "bullets": [
+                "Implementação completa em React com arquitetura modular e reutilizável.",
+                "Responsividade avançada garantindo performance em desktop, tablet e mobile.",
+                "Configuração de tema claro/escuro com alternância dinâmica.",
+                "Integração de animações e interações fluidas com CSS e bibliotecas React."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Resultados Alcançados",
+          "items": [
+            "Identidade visual sólida alinhada ao posicionamento estratégico da marca.",
+            "Landing page altamente responsiva, interativa e focada em performance.",
+            "Maior potencial de conversão e credibilidade junto ao público-alvo.",
+            "Base tecnológica escalável pronta para evoluções e integrações futuras."
+          ]
+        }
+      ],
+      "gallery": {
+        "title": "Galeria do Projeto",
+        "desktopLabel": "Versão Desktop",
+        "mobileLabel": "Versão Mobile",
+        "desktopAlt": "Tela desktop {{index}} do projeto FluxGrowth Studio",
+        "mobileAlt": "Tela mobile {{index}} do projeto FluxGrowth Studio"
+      }
+    },
+    "ritusDeLuzLanding": {
+      "seo": {
+        "title": "Landing Page Ritus de Luz – Projeto",
+        "description": "Landing page imersiva construída para traduzir a essência da marca Ritus de Luz."
+      },
+      "labels": {
+        "highlightBadge": "Projeto em Destaque",
+        "backToPortfolio": "Voltar ao portfólio"
+      },
+      "hero": {
+        "title": "Landing Page Ritus de Luz — Experiência Sensorial de Marca",
+        "summary": "Landing page criada para expressar a energia da Ritus de Luz por meio de narrativa fluida, interações leves e jornada voltada à conversão."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "Objetivo",
+          "paragraphs": [
+            "Criar uma experiência digital que reforçasse o posicionamento premium da Ritus de Luz, traduzindo a espiritualidade moderna em uma jornada envolvente e intuitiva. A landing page conduz o visitante da descoberta à ação em poucos cliques, mantendo a narrativa sensorial."
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Destaques de Design",
+          "items": [
+            "Hero imersivo com tipografia expansiva e CTA centralizado para alta conversão.",
+            "Gradientes suaves, partículas luminosas e ícones orgânicos que remetem à luz.",
+            "Seções narrativas em ritmo crescente, apresentando propósito, serviços e depoimentos.",
+            "Sistema de cores que equilibra profundidade noturna e pontos de luz dourada, reforçando o aspecto espiritual."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "Fluxo de Conteúdo",
+          "items": [
+            {
+              "title": "1. Conexão inicial",
+              "description": "Hero com mensagem direta, manifesto da marca e CTA que direciona para consultoria personalizada."
+            },
+            {
+              "title": "2. Jornada guiada",
+              "description": "Seções de propósito, pilares e benefícios, acompanhadas de microinterações em scroll para manter o visitante imerso."
+            },
+            {
+              "title": "3. Prova social",
+              "description": "Depoimentos e selos sensoriais reforçando confiança e diferenciais do método Ritus."
+            },
+            {
+              "title": "4. Conversão",
+              "description": "Formulário otimizado e CTA final com navegação simplificada para facilitar o contato."
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Resultado",
+          "items": [
+            "Experiência narrativa que traduz a essência da marca em cada seção do layout.",
+            "Performance otimizada com desenvolvimento em Flutter Web e carregamento rápido em múltiplos devices.",
+            "Identidade sensorial consistente com a nova comunicação da Ritus de Luz.",
+            "Engajamento elevado graças à combinação de motion design e storytelling emocional."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "✦ O Ritus de Luz é o encontro entre arte e tecnologia — um espaço digital onde cada detalhe reflete alma, equilíbrio e propósito."
+        }
+      ],
+      "gallery": {
+        "title": "Galeria do Projeto",
+        "desktopLabel": "Versão Desktop",
+        "mobileLabel": "Versão Mobile",
+        "desktopAlt": "Tela desktop {{index}} da landing page Ritus de Luz",
+        "mobileAlt": "Tela mobile {{index}} da landing page Ritus de Luz"
+      }
+    },
+    "ritusDeLuzWebsite": {
+      "seo": {
+        "title": "Website Ritus de Luz – Projeto",
+        "description": "Website criado com design emocional, branding sensorial e experiência digital imersiva."
+      },
+      "labels": {
+        "highlightBadge": "Projeto em Destaque",
+        "backToPortfolio": "Voltar ao portfólio",
+        "detailChip": "Detalhes do Projeto"
+      },
+      "hero": {
+        "title": "Website Ritus de Luz — Storytelling em Movimento",
+        "summary": "Website concebido para unir design emocional, branding sensorial e narrativa imersiva no universo Ritus de Luz."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "Visão Geral do Projeto",
+          "paragraphs": [
+            "O website da Ritus de Luz foi pensado como uma jornada sensorial que honra a espiritualidade moderna. O objetivo foi criar uma presença digital premium que equilibrasse poesia visual, movimento e clareza.",
+            "Cada seção traduz os pilares da marca: propósito, rituais e transformação. As composições exploram gradientes luminosos, formas orgânicas e texturas etéreas para reforçar a narrativa.",
+            "O desenvolvimento foi realizado em Flutter Web para garantir performance, responsividade e animações expressivas em qualquer dispositivo."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "Etapas do Trabalho",
+          "items": [
+            {
+              "title": "1. Pesquisa & Conceito",
+              "bullets": [
+                "Imersão no storytelling da marca, rituais e arquétipos espirituais.",
+                "Mapeamento de referências sensoriais — luz, movimento e o sagrado.",
+                "Definição de uma jornada narrativa que leva do propósito à transformação."
+              ]
+            },
+            {
+              "title": "2. Identidade Visual",
+              "bullets": [
+                "Paleta com azuis profundos, roxos iridescentes e luz dourada.",
+                "Tipografia combinando títulos serifados expansivos com parágrafos sans-serif fluidos.",
+                "Iconografia inspirada em geometria sagrada e padrões de luz orgânica."
+              ]
+            },
+            {
+              "title": "3. Design do Website",
+              "bullets": [
+                "Prototipagem de alta fidelidade no Figma com princípios de UX emocional.",
+                "Seções narrativas apresentando propósito, serviços e jornada da marca com ritmo fluido.",
+                "Microinterações e efeitos de transição que criam sensação de luz, harmonia e movimento."
+              ]
+            },
+            {
+              "title": "4. Desenvolvimento em Flutter Web",
+              "bullets": [
+                "Implementação completa em Flutter garantindo responsividade total e performance otimizada.",
+                "Aplicação de animações sutis, parallax e efeitos de fade para storytelling imersivo.",
+                "Estrutura modular e escalável preparada para integrações e expansões futuras."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Resultados Alcançados",
+          "items": [
+            "Website imersivo e performático que traduz a espiritualidade moderna.",
+            "Identidade visual refinada e coerente, com presença digital elegante e simbólica.",
+            "Experiência emocional e intuitiva que conecta o visitante à essência do projeto.",
+            "Base tecnológica robusta, pronta para evoluir com novas funcionalidades e integrações."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "✦ O Ritus de Luz é onde arte e tecnologia se encontram — um santuário digital em que cada detalhe reflete alma, equilíbrio e propósito."
+        }
+      ],
+      "gallery": {
+        "title": "Galeria do Projeto",
+        "desktopLabel": "Versão Desktop",
+        "mobileLabel": "Versão Mobile",
+        "desktopAlt": "Tela desktop {{index}} do website Ritus de Luz",
+        "mobileAlt": "Tela mobile {{index}} do website Ritus de Luz"
+      }
+    },
+    "zenBodhi": {
+      "seo": {
+        "title": "App ZenBodhi – Projeto",
+        "description": "Aplicativo mobile de meditação guiada, atenção plena e autodesenvolvimento inspirado no Zen."
+      },
+      "labels": {
+        "highlightBadge": "Projeto em Destaque",
+        "backToPortfolio": "Voltar ao portfólio"
+      },
+      "hero": {
+        "title": "App ZenBodhi — Mindfulness & Despertar",
+        "summary": "Experiência mobile criada para guiar práticas de meditação, atenção plena e autodesenvolvimento inspiradas na filosofia Zen."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "Visão Geral do Projeto",
+          "paragraphs": [
+            "O ZenBodhi convida o usuário a mergulhar em jornadas de mindfulness que unem práticas ancestrais e tecnologia contemporânea. O design abraça a serenidade com cores suaves, ícones etéreos e transições calmas.",
+            "Cada tela foi desenhada para transmitir paz desde o primeiro toque, incentivando presença e equilíbrio interior."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "Etapas do Trabalho",
+          "items": [
+            {
+              "title": "1. Pesquisa & Conceito",
+              "bullets": [
+                "Exploração de referências visuais e simbólicas do Zen e do Budismo.",
+                "Definição do propósito central: despertar o momento presente.",
+                "Criação de moodboard conceitual no Figma inspirado na natureza, templos e ritmos da respiração."
+              ]
+            },
+            {
+              "title": "2. Design da Experiência",
+              "bullets": [
+                "Telas e protótipos interativos no Figma com tipografia suave e espaçamento generoso.",
+                "Ícones e ilustrações autorais que reforçam o caráter contemplativo.",
+                "Fundos e texturas inspirados em tinta sumi-e e formas orgânicas."
+              ]
+            },
+            {
+              "title": "3. Desenvolvimento Mobile",
+              "bullets": [
+                "Implementação em React Native garantindo fluidez e desempenho em iOS e Android.",
+                "Integração com Firebase para autenticação, trilhas e jornadas personalizadas.",
+                "Estrutura modular preparada para futuros áudios guiados, diário de presença e lembretes conscientes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Resultados Esperados",
+          "items": [
+            "Uso imersivo voltado à paz interior e à prática diária de mindfulness.",
+            "Design minimalista e harmônico que convida à pausa e à atenção plena.",
+            "Fundação escalável pronta para evoluir com novas trilhas, métricas de bem-estar e integração com wearables."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "✦ ZenBodhi é o espaço onde o silêncio ganha forma e o despertar se torna hábito diário."
+        }
+      ],
+      "gallery": {
+        "title": "Galeria do Projeto",
+        "mobileLabel": "Interface Mobile",
+        "mobileAlt": "Tela {{index}} do aplicativo ZenBodhi"
+      }
+    }
+  },
+  "consent": {
+    "title": "Configurações de privacidade",
+    "description": "Usamos cookies para melhorar sua experiência. Escolha as categorias que deseja permitir.",
+    "necessary": {
+      "title": "Essencial",
+      "description": "Necessário para o funcionamento do site e não pode ser desativado."
+    },
+    "analytics": {
+      "title": "Métricas",
+      "description": "Permite medir audiência e entender a navegação."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Permite campanhas personalizadas e remarketing."
+    },
+    "acceptAll": "Aceitar tudo",
+    "save": "Salvar preferências",
+    "reset": "Redefinir",
+    "managePreferences": "Preferências de privacidade"
+  }
+}
