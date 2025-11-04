@@ -9,7 +9,7 @@ type PreloadDescriptor = {
   type?: string
   fetchPriority?: 'high' | 'low' | 'auto'
   crossOrigin?: 'anonymous' | 'use-credentials'
-  imagesrcset?: string
+  imageSrcSet?: string
 }
 
 type MetaProps = {
@@ -111,7 +111,7 @@ function Meta({
           type={preload.type}
           fetchPriority={preload.fetchPriority}
           crossOrigin={preload.crossOrigin}
-          imagesrcset={preload.imagesrcset}
+          imageSrcSet={preload.imageSrcSet}
         />
       ))}
 

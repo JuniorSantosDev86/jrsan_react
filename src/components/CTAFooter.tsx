@@ -1,4 +1,4 @@
-import { Mail, Linkedin, ArrowRight } from 'lucide-react'
+import { Mail, Github, ArrowRight } from 'lucide-react'
 import { SiWhatsapp } from 'react-icons/si'
 import { useTranslation } from '../features/i18n/i18n'
 import logoGif from '../assets/images/logo_1.gif'
@@ -13,10 +13,10 @@ const contactItems = [
     href: 'mailto:juniorsantos.dev86@gmail.com',
   },
   {
-    label: 'LinkedIn',
-    value: '@junior-santos',
-    icon: Linkedin,
-    href: 'https://www.linkedin.com/in/junior-santos',
+    label: 'GitHub',
+    value: '@JuniorSantosDev86',
+    icon: Github,
+    href: 'https://github.com/JuniorSantosDev86',
   },
 ]
 

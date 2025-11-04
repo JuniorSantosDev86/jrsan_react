@@ -17,7 +17,7 @@ type ContactDetail = {
 const SOCIAL_LINKS: readonly SocialLink[] = [
   {
     name: 'GitHub',
-    href: 'https://github.com/junior-santos',
+    href: 'https://github.com/JuniorSantosDev86',
     Icon: Github,
   },
   {

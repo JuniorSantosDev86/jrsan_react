@@ -37,7 +37,7 @@ export const siteMetadata = {
     country: 'BR',
   },
   social: {
-    github: 'https://github.com/junior-santos',
+    github: 'https://github.com/JuniorSantosDev86',
     linkedin: 'https://linkedin.com/in/junior-santos',
     instagram: 'https://instagram.com/juniorsantos.dev',
     email: 'mailto:juniorsantos.dev86@gmail.com',
