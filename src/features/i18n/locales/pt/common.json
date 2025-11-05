@@ -43,7 +43,7 @@
         ]
       },
       "zenbodhiApp": {
-        "title": "ZenBodhi — Meditação & Consciência Plena",
+        "title": "ZenBodhi - Meditação & Consciência Plena",
         "category": "Tipo: Aplicativo Mobile",
         "description": "Aplicativo mobile de meditação e autodesenvolvimento inspirado no Budismo Zen. Criado para guiar o usuário em práticas de atenção plena, equilíbrio emocional e expansão da consciência.",
         "tags": [
@@ -55,7 +55,7 @@
         ]
       },
       "fluxGrowthStudio": {
-        "title": "Landing Page FluxGrowth Studio",
+                "title": "Landing Page & Visual Identity - FluxGrowth Studio",
         "category": "Landing Page",
         "description": "Landing page moderna, responsiva e alinhada à identidade visual estratégica da FluxGrowth Studio.",
         "tags": [
@@ -307,7 +307,7 @@
         ]
       },
       "closing": {
-        "highlight": "✦ Do conceito ao toque — transformamos ideias em experiências digitais completas.",
+        "highlight": "✦ Do conceito ao toque - transformamos ideias em experiências digitais completas.",
         "message": "Vamos construir o próximo aplicativo com a JrSan Creative Development?",
         "cta": "Falar com a JrSan"
       }
@@ -391,7 +391,7 @@
         "title": "Marketing Digital – Estratégia, Criatividade e Crescimento",
         "paragraphs": [
           "Na JrSan Creative Development, marketing é um ecossistema inteligente. Estratégia, design, tecnologia e performance se unem para criar campanhas que atraem, engajam e convertem com autenticidade.",
-          "Planejamos e executamos iniciativas que transformam marcas em experiências vivas e resultados concretos — equilibrando narrativa, dados e impacto real."
+          "Planejamos e executamos iniciativas que transformam marcas em experiências vivas e resultados concretos - equilibrando narrativa, dados e impacto real."
         ]
       },
       "deliverables": {
@@ -451,7 +451,7 @@
         "detailChip": "Detalhes do Projeto"
       },
       "hero": {
-        "title": "Criação de Landing Page e Identidade Visual — FluxGrowth Studio",
+        "title": "Criação de Landing Page e Identidade Visual - FluxGrowth Studio",
         "summary": "Projeto desenvolvido com foco em posicionamento digital, design estratégico e performance visual."
       },
       "sections": [
@@ -460,7 +460,7 @@
           "title": "Visão Geral do Projeto",
           "paragraphs": [
             "A FluxGrowth Studio é uma agência digital focada em crescimento de marcas e negócios. O objetivo foi criar uma landing page moderna, responsiva e impactante, alinhada a uma identidade visual marcante que traduzisse tecnologia, confiança e energia criativa.",
-            "O design foi pensado para representar a essência da marca — inovação, performance e resultados reais — utilizando Figma para o protótipo e React para todo o desenvolvimento web.",
+            "O design foi pensado para representar a essência da marca - inovação, performance e resultados reais - utilizando Figma para o protótipo e React para todo o desenvolvimento web.",
             "A narrativa estratégica mirou clientes de médio e alto padrão, apresentando os serviços da agência com clareza, fluidez e apelo visual para ampliar reconhecimento e potencial de conversão."
           ]
         },
@@ -532,7 +532,7 @@
         "backToPortfolio": "Voltar ao portfólio"
       },
       "hero": {
-        "title": "Landing Page Ritus de Luz — Experiência Sensorial de Marca",
+                "title": "Ritus de Luz Landing Page - Experiência Sensorial de Marca",
         "summary": "Landing page criada para expressar a energia da Ritus de Luz por meio de narrativa fluida, interações leves e jornada voltada à conversão."
       },
       "sections": [
@@ -587,7 +587,7 @@
         },
         {
           "type": "quote",
-          "text": "✦ O Ritus de Luz é o encontro entre arte e tecnologia — um espaço digital onde cada detalhe reflete alma, equilíbrio e propósito."
+          "text": "✦ O Ritus de Luz é o encontro entre arte e tecnologia - um espaço digital onde cada detalhe reflete alma, equilíbrio e propósito."
         }
       ],
       "gallery": {
@@ -609,7 +609,7 @@
         "detailChip": "Detalhes do Projeto"
       },
       "hero": {
-        "title": "Website Ritus de Luz — Storytelling em Movimento",
+        "title": "Website Ritus de Luz - Storytelling em Movimento",
         "summary": "Website concebido para unir design emocional, branding sensorial e narrativa imersiva no universo Ritus de Luz."
       },
       "sections": [
@@ -630,7 +630,7 @@
               "title": "1. Pesquisa & Conceito",
               "bullets": [
                 "Imersão no storytelling da marca, rituais e arquétipos espirituais.",
-                "Mapeamento de referências sensoriais — luz, movimento e o sagrado.",
+                "Mapeamento de referências sensoriais - luz, movimento e o sagrado.",
                 "Definição de uma jornada narrativa que leva do propósito à transformação."
               ]
             },
@@ -672,7 +672,7 @@
         },
         {
           "type": "quote",
-          "text": "✦ O Ritus de Luz é onde arte e tecnologia se encontram — um santuário digital em que cada detalhe reflete alma, equilíbrio e propósito."
+          "text": "✦ O Ritus de Luz é onde arte e tecnologia se encontram - um santuário digital em que cada detalhe reflete alma, equilíbrio e propósito."
         }
       ],
       "gallery": {
@@ -693,7 +693,7 @@
         "backToPortfolio": "Voltar ao portfólio"
       },
       "hero": {
-        "title": "App ZenBodhi — Mindfulness & Despertar",
+        "title": "App ZenBodhi - Mindfulness & Despertar",
         "summary": "Experiência mobile criada para guiar práticas de meditação, atenção plena e autodesenvolvimento inspiradas na filosofia Zen."
       },
       "sections": [

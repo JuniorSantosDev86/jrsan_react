@@ -31,16 +31,24 @@ function Header() {
     []
   )
   useEffect(() => {
+    let ticking = false
+    
     const handleScroll = () => {
-      const currentScroll = window.scrollY
-      const viewportHeight = window.innerHeight
-      setIsScrolled(currentScroll > 20)
-      const progress = Math.min(currentScroll / (viewportHeight * 0.75), 1)
-      setScrollProgress(progress)
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const currentScroll = window.scrollY
+          const viewportHeight = window.innerHeight
+          setIsScrolled(currentScroll > 10)
+          const progress = Math.min(currentScroll / (viewportHeight * 0.75), 1)
+          setScrollProgress(progress)
+          ticking = false
+        })
+        ticking = true
+      }
     }
 
     handleScroll()
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
@@ -134,7 +142,7 @@ function Header() {
   return (
     <header 
       className={clsx(
-        'sticky top-0 left-0 right-0 z-50 w-full header-glass transition-all duration-500 ease-out relative',
+        'sticky top-0 left-0 right-0 z-50 w-full header-glass transition-all duration-500 ease-out',
         isScrolled ? 'header-glass-scrolled translate-y-0 shadow-lg' : 'shadow-none'
       )}
       style={{
