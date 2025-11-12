@@ -1,15 +1,66 @@
-﻿import { useTranslation } from '../features/i18n/i18n'
+﻿import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from '../features/i18n/i18n'
 import profileImage from '../assets/images/eu_photo.png'
 import { useContactModal } from '../context/ContactModalContext'
 
 function About() {
   const { t } = useTranslation()
   const { openContactModal } = useContactModal()
+  const sectionRef = useRef<HTMLElement | null>(null)
+  const [hasEnteredView, setHasEnteredView] = useState(false)
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false)
 
   const paragraphs = t('about.paragraphs', { returnObjects: true }) as string[]
 
+  useEffect(() => {
+    if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') {
+      return
+    }
+
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
+    const updatePreference = () => setPrefersReducedMotion(mediaQuery.matches)
+
+    updatePreference()
+
+    if (typeof mediaQuery.addEventListener === 'function') {
+      mediaQuery.addEventListener('change', updatePreference)
+      return () => mediaQuery.removeEventListener('change', updatePreference)
+    }
+
+    mediaQuery.addListener(updatePreference)
+    return () => mediaQuery.removeListener(updatePreference)
+  }, [])
+
+  useEffect(() => {
+    if (prefersReducedMotion) {
+      setHasEnteredView(true)
+      return
+    }
+
+    const node = sectionRef.current
+    if (!node || typeof IntersectionObserver === 'undefined') {
+      setHasEnteredView(true)
+      return
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setHasEnteredView(true)
+            observer.disconnect()
+          }
+        })
+      },
+      { threshold: 0.35 }
+    )
+
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [prefersReducedMotion])
+
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="section-padding" ref={sectionRef}>
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -24,7 +75,13 @@ function About() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
             {/* Avatar Column */}
-            <div className="lg:col-span-1 flex justify-center">
+            <div
+              className={[
+                'lg:col-span-1 flex justify-center',
+                'motion-safe:transition-all motion-safe:duration-700 motion-safe:ease-out motion-safe:transform-gpu motion-safe:will-change-transform',
+                hasEnteredView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16',
+              ].join(' ')}
+            >
               <div className="relative">
                 {/* Main Avatar */}
                 <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
@@ -51,7 +108,14 @@ function About() {
             </div>
 
             {/* Content Column */}
-            <div className="lg:col-span-2 space-y-6">
+            <div
+              className={[
+                'lg:col-span-2 space-y-6',
+                'motion-safe:transition-all motion-safe:duration-700 motion-safe:ease-out motion-safe:transform-gpu motion-safe:will-change-transform',
+                hasEnteredView ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-16',
+              ].join(' ')}
+              style={{ transitionDelay: hasEnteredView ? '120ms' : '0ms' }}
+            >
               {paragraphs.map((paragraph, index) => (
                 <div key={index} className="group" style={{ animationDelay: `${index * 0.1}s` }}>
                   <p className="text-lg leading-relaxed text-justify text-foreground/90 group-hover:text-foreground transition-colors duration-300">

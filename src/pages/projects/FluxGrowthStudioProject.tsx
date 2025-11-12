@@ -268,24 +268,24 @@ function FluxGrowthStudioProject() {
                 <p className="text-sm uppercase tracking-[0.35em] text-white/40">{content.gallery.mobileLabel}</p>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                   {mobileGallery.map((image, index) => (
-                    <figure
-                      key={`${image}-mobile-${index}`}
-                      className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-xl shadow-black/40 aspect-[9/16]"
-                    >
-                      <img
-                        src={image}
-                        alt={content.gallery.mobileAlt.replace('{{index}}', String(index + 1))}
-                        loading="lazy"
-                        decoding="async"
-                        className="h-full w-full object-cover"
-                        width={720}
-                        height={1280}
-                      />
-                    </figure>
-                  ))}
-                </div>
-              </>
-            )}
+                      <figure
+                        key={`${image}-mobile-${index}`}
+                        className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-xl shadow-black/40 aspect-[9/16] flex items-center justify-center p-3"
+                      >
+                        <img
+                          src={image}
+                          alt={content.gallery.mobileAlt.replace('{{index}}', String(index + 1))}
+                          loading="lazy"
+                          decoding="async"
+                          className="h-full max-h-full w-auto max-w-full object-contain"
+                          width={720}
+                          height={1280}
+                        />
+                      </figure>
+                    ))}
+                  </div>
+                </>
+              )}
           </section>
         )}
       </main>

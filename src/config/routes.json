@@ -1,6 +1,8 @@
 [
   { "path": "/", "changefreq": "weekly", "priority": 1.0 },
   { "path": "/projects/fluxgrowth-studio", "changefreq": "monthly", "priority": 0.8 },
+  { "path": "/portfolio/nutri-clara-mendes", "changefreq": "monthly", "priority": 0.8 },
+  { "path": "/projects/lexprime-advocacia", "changefreq": "monthly", "priority": 0.8 },
   { "path": "/projects/ritus-de-luz", "changefreq": "monthly", "priority": 0.8 },
   { "path": "/projects/ritus-de-luz-website", "changefreq": "monthly", "priority": 0.8 },
   { "path": "/projects/zenbodhi", "changefreq": "monthly", "priority": 0.7 },

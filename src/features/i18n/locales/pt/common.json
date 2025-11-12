@@ -20,6 +20,31 @@
     "badge": "Projetos em Destaque",
     "subtitle": "Alguns projetos que refletem meu estilo, lógica limpa, design fluido e foco total na experiência do usuário.",
     "projects": {
+      "nutriClaraMendes": {
+        "title": "Landing Page & Identidade Visual — Nutri Clara Mendes",
+        "category": "Landing Page",
+        "description": "Landing page moderna, responsiva e otimizada para conversão, criada para fortalecer a presença digital da nutricionista Clara Mendes com visual leve, profissional e centrado no bem-estar.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Figma",
+          "Tailwind CSS",
+          "Illustrator"
+        ]
+      },
+      "lexPrimeAdvocacia": {
+        "title": "LexPrime Advocacia – Direito Full Service",
+        "category": "Landing Page",
+        "description": "Landing page institucional desenvolvida para um escritório de advocacia moderno e de alto padrão, focada em credibilidade, performance e comunicação clara. Construída com React, Vite e Tailwind, integra SEO técnico, Google Analytics e otimização total de velocidade.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS",
+          "Figma",
+          "SEO",
+          "Analytics"
+        ]
+      },
       "landingPage": {
         "title": "Landing Page Ritus de Luz",
         "category": "Web Development",
@@ -520,6 +545,176 @@
         "mobileLabel": "Versão Mobile",
         "desktopAlt": "Tela desktop {{index}} do projeto FluxGrowth Studio",
         "mobileAlt": "Tela mobile {{index}} do projeto FluxGrowth Studio"
+      }
+    },
+    "nutriClaraMendes": {
+      "seo": {
+        "title": "Landing Page & Identidade Visual — Nutri Clara Mendes",
+        "description": "Landing page moderna, responsiva e otimizada para conversão, criada para fortalecer a presença digital da nutricionista Clara Mendes com visual leve, profissional e centrado no bem-estar."
+      },
+      "labels": {
+        "highlightBadge": "📍 PROJETO EM DESTAQUE",
+        "backToPortfolio": "Voltar ao portfólio",
+        "detailChip": "✅ DESCRIÇÃO COMPLETA — estilo página interna"
+      },
+      "hero": {
+        "title": "🥗 Nutri Clara Mendes — Landing Page Profissional para Saúde & Bem-Estar",
+        "summary": "Landing page moderna, responsiva e otimizada para conversão, criada para fortalecer a presença digital da nutricionista Clara Mendes com visual leve, profissional e centrado no bem-estar."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "✅ Visão Geral do Projeto",
+          "paragraphs": [
+            "A landing page da Nutri Clara Mendes foi desenvolvida para elevar sua presença digital, transmitindo confiança, credibilidade e acolhimento — características essenciais no segmento de nutrição.",
+            "O foco principal foi criar um visual limpo, moderno e empático, refletindo valores como saúde, equilíbrio e estilo de vida consciente, enquanto apresenta os serviços da profissional com clareza e linguagem acessível.",
+            "O projeto combina identidade visual orgânica, design responsivo, conteúdo estratégico e SEO técnico, garantindo performance e relevância em mecanismos de busca."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "✅ Etapas do Trabalho",
+          "items": [
+            {
+              "title": "1. Pesquisa & Direcionamento Estratégico",
+              "bullets": [
+                "Análise de referências em nutrição, saúde e bem-estar.",
+                "Criação do moodboard com paleta clara, estética natural e elementos suaves.",
+                "Mapeamento da jornada do usuário com foco em conversão e confiança."
+              ]
+            },
+            {
+              "title": "2. Identidade Visual",
+              "bullets": [
+                "Desenvolvimento do conceito visual com tons orgânicos, brancos, verdes e nudes.",
+                "Seleção tipográfica que reforça leveza e profissionalismo.",
+                "Criação dos mockups e elementos visuais usados na página.",
+                "Tratamento e edição de imagens para manter coerência estética."
+              ]
+            },
+            {
+              "title": "3. Design da Interface",
+              "bullets": [
+                "Prototipação completa no Figma com hierarquia visual clara e foco em leitura.",
+                "Seções bem estruturadas: abertura, serviços, diferenciais, sobre, agendamento.",
+                "CTAs evidentes e confiáveis para facilitar conversões.",
+                "Microinterações sutis aplicadas com princípios de UX."
+              ]
+            },
+            {
+              "title": "4. Desenvolvimento em React",
+              "bullets": [
+                "Implementação utilizando React + Vite + TailwindCSS com performance otimizada.",
+                "Componentização limpa e reutilizável.",
+                "Responsividade fluida para desktop, tablet e mobile.",
+                "SEO técnico aplicado: open graph, meta tags, estrutura semântica, sitemap.",
+                "Integração de Analytics + eventos de conversão.",
+                "Deploy final otimizado no Netlify."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "✅ Resultados Alcançados",
+          "items": [
+            "Identidade visual consistente e voltada para credibilidade na área de saúde.",
+            "Landing page altamente responsiva, rápida e otimizada para SEO.",
+            "Aumento do potencial de conversão e facilitação do contato via WhatsApp.",
+            "Base sólida para evoluções futuras como blog, área do paciente ou marca pessoal."
+          ]
+        }
+      ],
+      "gallery": {
+        "title": "Galeria do Projeto",
+        "desktopLabel": "Versão Desktop",
+        "mobileLabel": "Versão Mobile",
+        "desktopAlt": "Tela desktop {{index}} do projeto Nutri Clara Mendes",
+        "mobileAlt": "Tela mobile {{index}} do projeto Nutri Clara Mendes"
+      }
+    },
+    "lexPrimeAdvocacia": {
+      "seo": {
+        "title": "LexPrime Advocacia – Landing Page Direito Full Service",
+        "description": "Landing page institucional premium criada para um escritório de advocacia full service, com foco em credibilidade, performance e comunicação clara."
+      },
+      "labels": {
+        "highlightBadge": "Projeto em Destaque",
+        "backToPortfolio": "Voltar ao portfólio",
+        "detailChip": "Descrição Detalhada"
+      },
+      "hero": {
+        "title": "LexPrime Advocacia — Landing Page Full Service em Direito",
+        "summary": "Experiência digital elegante, responsiva e performática, combinando tons escuros, detalhes dourados e tipografia sólida para traduzir a autoridade da LexPrime."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "Visão Geral do Projeto",
+          "paragraphs": [
+            "A LexPrime Advocacia é um escritório full service que precisava de uma presença digital à altura de sua atuação moderna e de alto padrão.",
+            "O projeto consistiu em criar uma landing page institucional que comunicasse credibilidade, transparência e sofisticação jurídica, mantendo linguagem clara e objetiva.",
+            "A arquitetura foi desenvolvida em React + Vite + Tailwind, com SEO técnico refinado, Google Analytics 4 e otimizações completas de velocidade.",
+            "Toda a jornada privilegia a navegação fluida em desktop e mobile, destacando áreas de atuação, equipe e diferenciais com CTAs conectados ao WhatsApp."
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Experiência e Destaques",
+          "items": [
+            "Sessões com animações suaves e transições em ondas que simbolizam movimento e evolução.",
+            "Hero section com vídeo institucional reforçando presença e autoridade visual da marca.",
+            "Seções específicas para equipe, áreas de atuação, diferenciais e formulário com integração direta ao WhatsApp.",
+            "Componentes modulares e escaláveis prontos para futuras expansões como blog e áreas do cliente."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "Etapas do Trabalho",
+          "items": [
+            {
+              "title": "1. Estratégia e Arquitetura",
+              "bullets": [
+                "Mapeamento da jornada do usuário e definição da hierarquia de conteúdo.",
+                "Planejamento de SEO técnico e estrutura de headings otimizados (H1–H3).",
+                "Desenho dos fluxos de conversão conectando formulários, botões e WhatsApp."
+              ]
+            },
+            {
+              "title": "2. Design Visual",
+              "bullets": [
+                "Construção de identidade premium com paleta escura, detalhes dourados e contrastes elegantes.",
+                "Tipografia sólida inspirada no universo jurídico e uso de ícones vetoriais exclusivos.",
+                "Produção de variações responsivas e peças complementares para redes sociais."
+              ]
+            },
+            {
+              "title": "3. Desenvolvimento & Performance",
+              "bullets": [
+                "Implementação completa com React, Vite e Tailwind utilizando componentes modulares.",
+                "Lazy loading de mídia, otimização de assets e compressão para performance máxima.",
+                "Integração com Google Analytics 4 e eventos personalizados de navegação e conversão.",
+                "Deploy no Netlify com compressão Brotli e metatags sociais (Open Graph e Twitter Cards)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Resultados",
+          "items": [
+            "Aumento na taxa de permanência e redução perceptível no tempo de carregamento.",
+            "Experiência visual marcante que reforça a LexPrime como referência em Direito Empresarial e Civil.",
+            "Base tecnológica escalável preparada para integrações futuras como blog e áreas do cliente."
+          ]
+        }
+      ],
+      "gallery": {
+        "title": "Galeria do Projeto",
+        "desktopLabel": "Versão Desktop",
+        "mobileLabel": "Versão Mobile",
+        "desktopAlt": "Tela desktop {{index}} do projeto LexPrime Advocacia",
+        "mobileAlt": "Tela mobile {{index}} do projeto LexPrime Advocacia"
       }
     },
     "ritusDeLuzLanding": {

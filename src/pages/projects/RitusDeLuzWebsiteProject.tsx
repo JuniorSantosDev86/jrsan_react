@@ -324,14 +324,14 @@ function RitusDeLuzWebsiteProject() {
             {mobileGallery.map((image, index) => (
               <figure
                 key={image}
-                className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-xl shadow-black/40 aspect-[9/16]"
+                className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-xl shadow-black/40 aspect-[9/16] flex items-center justify-center p-3"
               >
                 <img
                   src={image}
                   alt={content.gallery.mobileAlt.replace('{{index}}', String(index + 1))}
                   loading="lazy"
                   decoding="async"
-                  className="h-full w-full object-cover"
+                  className="h-full max-h-full w-auto max-w-full object-contain"
                   width={720}
                   height={1280}
                 />

@@ -20,6 +20,31 @@
     "badge": "Featured Projects",
     "subtitle": "A selection of projects that reflect my style, clean logic, fluid design, and a user-first mindset.",
     "projects": {
+      "nutriClaraMendes": {
+        "title": "Landing Page & Visual Identity — Nutri Clara Mendes",
+        "category": "Landing Page",
+        "description": "Modern, responsive landing page optimized for conversion, built to strengthen nutritionist Clara Mendes' digital presence with a light, professional, wellness-focused look.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Figma",
+          "Tailwind CSS",
+          "Illustrator"
+        ]
+      },
+      "lexPrimeAdvocacia": {
+        "title": "LexPrime Advocacia – Full-Service Law Firm Landing Page",
+        "category": "Landing Page",
+        "description": "Institutional landing page created for a modern, high-end law firm focused on credibility, performance, and clear communication. Built with React, Vite, and Tailwind, it blends technical SEO, Google Analytics, and end-to-end speed optimization.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS",
+          "Figma",
+          "SEO",
+          "Analytics"
+        ]
+      },
       "landingPage": {
         "title": "Ritus de Luz Landing Page",
         "category": "Web Development",
@@ -520,6 +545,176 @@
         "mobileLabel": "Mobile Version",
         "desktopAlt": "Desktop screen {{index}} of the FluxGrowth Studio project",
         "mobileAlt": "Mobile screen {{index}} of the FluxGrowth Studio project"
+      }
+    },
+    "nutriClaraMendes": {
+      "seo": {
+        "title": "Landing Page & Visual Identity — Nutri Clara Mendes",
+        "description": "Modern, responsive landing page optimized for conversion, designed to strengthen nutritionist Clara Mendes' digital presence with a light, professional, wellness-first look."
+      },
+      "labels": {
+        "highlightBadge": "📍 FEATURED PROJECT",
+        "backToPortfolio": "Back to portfolio",
+        "detailChip": "✅ COMPLETE CASE — inner page style"
+      },
+      "hero": {
+        "title": "🥗 Nutri Clara Mendes — Professional Wellness Landing Page",
+        "summary": "Modern, responsive, conversion-oriented landing page designed to reinforce Clara Mendes' digital presence with a light, professional, well-being centered aesthetic."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "✅ Project Overview",
+          "paragraphs": [
+            "Nutri Clara Mendes' landing page was designed to elevate her digital presence while communicating trust, credibility, and warmth — essentials in the nutrition field.",
+            "The main focus was to build a clean, modern, and empathetic look that reflects health, balance, and a conscious lifestyle, presenting her services with clarity and accessible language.",
+            "The project blends an organic visual identity, responsive design, strategic content, and technical SEO to ensure performance and relevance across search engines."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "✅ Project Stages",
+          "items": [
+            {
+              "title": "1. Research & Strategic Direction",
+              "bullets": [
+                "Analysed references in nutrition, health, and wellness.",
+                "Created a moodboard with light palettes, natural aesthetics, and soft elements.",
+                "Mapped the user journey with a focus on conversion and trust."
+              ]
+            },
+            {
+              "title": "2. Visual Identity",
+              "bullets": [
+                "Developed the visual concept with organic tones mixing whites, greens, and nudes.",
+                "Selected typography that reinforces lightness and professionalism.",
+                "Produced mockups and visual elements used throughout the page.",
+                "Edited and treated imagery to maintain aesthetic coherence."
+              ]
+            },
+            {
+              "title": "3. Interface Design",
+              "bullets": [
+                "Delivered a full Figma prototype with clear hierarchy and reading flow.",
+                "Structured sections for hero, services, differentiators, about, and scheduling.",
+                "Highlighted trustworthy CTAs to streamline conversions.",
+                "Applied subtle micro-interactions aligned with UX principles."
+              ]
+            },
+            {
+              "title": "4. React Development",
+              "bullets": [
+                "Implemented with React + Vite + Tailwind CSS for optimised performance.",
+                "Built clean, reusable componentization.",
+                "Ensured fluid responsiveness for desktop, tablet, and mobile.",
+                "Applied technical SEO: open graph, meta tags, semantic structure, sitemap.",
+                "Integrated Analytics plus conversion events.",
+                "Shipped an optimised Netlify deployment."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "✅ Outcomes",
+          "items": [
+            "Consistent visual identity focused on credibility within the health segment.",
+            "Highly responsive landing page, fast and SEO-ready.",
+            "Higher conversion potential with easier contact via WhatsApp.",
+            "Solid foundation for future evolutions such as blog, patient area, or personal brand."
+          ]
+        }
+      ],
+      "gallery": {
+        "title": "Project Gallery",
+        "desktopLabel": "Desktop Version",
+        "mobileLabel": "Mobile Version",
+        "desktopAlt": "Desktop screen {{index}} of the Nutri Clara Mendes project",
+        "mobileAlt": "Mobile screen {{index}} of the Nutri Clara Mendes project"
+      }
+    },
+    "lexPrimeAdvocacia": {
+      "seo": {
+        "title": "LexPrime Advocacia – Full-Service Law Landing Page",
+        "description": "Premium institutional landing page for a full-service law firm focused on credibility, performance, and clear communication."
+      },
+      "labels": {
+        "highlightBadge": "Featured Project",
+        "backToPortfolio": "Back to portfolio",
+        "detailChip": "Detailed Overview"
+      },
+      "hero": {
+        "title": "LexPrime Advocacia — Full-Service Law Landing Page",
+        "summary": "Elegant, responsive, high-performance experience blending dark tones, golden accents, and strong typography to translate the authority of LexPrime."
+      },
+      "sections": [
+        {
+          "type": "paragraphs",
+          "title": "Project Overview",
+          "paragraphs": [
+            "LexPrime Advocacia is a full-service law firm that needed a digital presence aligned with its modern, high-standard positioning.",
+            "The assignment was to craft an institutional landing page that communicates credibility, transparency, and legal sophistication while keeping the language clear and objective.",
+            "The architecture was built with React + Vite + Tailwind, combined with refined technical SEO, Google Analytics 4, and end-to-end performance optimisations.",
+            "Every touchpoint prioritises fluid navigation on desktop and mobile, highlighting practices, team, and differentiators with CTAs connected to WhatsApp."
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Experience Highlights",
+          "items": [
+            "Sections with smooth animations and wave transitions representing movement and evolution.",
+            "Hero section with institutional video that reinforces presence and visual authority.",
+            "Dedicated spaces for team, practice areas, differentiators, and a form integrated with WhatsApp.",
+            "Modular, scalable components ready for future expansions such as blog and client areas."
+          ]
+        },
+        {
+          "type": "ordered",
+          "title": "Project Stages",
+          "items": [
+            {
+              "title": "1. Strategy & Architecture",
+              "bullets": [
+                "Mapped the user journey and defined the content hierarchy.",
+                "Planned technical SEO with optimised heading structure (H1–H3).",
+                "Designed conversion flows connecting forms, buttons, and WhatsApp."
+              ]
+            },
+            {
+              "title": "2. Visual Design",
+              "bullets": [
+                "Crafted a premium identity with dark palette, golden details, and elegant contrasts.",
+                "Selected legal-inspired typography and exclusive vector icons to express authority.",
+                "Produced responsive variations and complementary assets for social media."
+              ]
+            },
+            {
+              "title": "3. Development & Performance",
+              "bullets": [
+                "Implemented the full experience with React, Vite, and Tailwind using modular components.",
+                "Applied media lazy loading, asset optimisation, and compression for maximum speed.",
+                "Integrated Google Analytics 4 with custom navigation and conversion events.",
+                "Deployed on Netlify with Brotli compression and social meta tags (Open Graph & Twitter Cards)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulleted",
+          "title": "Outcomes",
+          "items": [
+            "Higher on-page engagement and noticeable reduction in loading time.",
+            "Memorable visual experience reinforcing LexPrime as a reference in Business and Civil Law.",
+            "Scalable technical foundation prepared for future integrations such as blog and client areas."
+          ]
+        }
+      ],
+      "gallery": {
+        "title": "Project Gallery",
+        "desktopLabel": "Desktop Version",
+        "mobileLabel": "Mobile Version",
+        "desktopAlt": "Desktop screen {{index}} of the LexPrime Advocacia project",
+        "mobileAlt": "Mobile screen {{index}} of the LexPrime Advocacia project"
       }
     },
     "ritusDeLuzLanding": {

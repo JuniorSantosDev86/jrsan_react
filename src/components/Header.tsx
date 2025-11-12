@@ -1,7 +1,7 @@
 ﻿import clsx from 'clsx'
-import { useState, useEffect, useMemo, useRef } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import type { CSSProperties } from 'react'
-import { Menu, X, ChevronDown } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { RiMoonClearLine, RiSunLine } from 'react-icons/ri'
 import { useTheme } from '../features/theme/ThemeProvider'
 import { useTranslation } from '../features/i18n/i18n'
@@ -14,7 +14,6 @@ function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [scrollProgress, setScrollProgress] = useState(0)
   const [activeSection, setActiveSection] = useState('home')
-  const [isLanguageOpen, setIsLanguageOpen] = useState(false)
   const { theme, toggleTheme } = useTheme()
   const { t, language, changeLanguage } = useTranslation()
   const { openContactModal } = useContactModal()
@@ -89,35 +88,12 @@ function Header() {
     }
   }
 
-  const languageSwitcherRef = useRef<HTMLDivElement>(null)
+  const handleLanguageToggle = () => {
+    const nextLanguage = language === 'pt' ? 'en' : 'pt'
+    handleLanguageSelect(nextLanguage)
+  }
 
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        isLanguageOpen &&
-        languageSwitcherRef.current &&
-        !languageSwitcherRef.current.contains(event.target as Node)
-      ) {
-        setIsLanguageOpen(false)
-      }
-    }
-
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [isLanguageOpen])
-
-  const languageOptions = [
-    {
-      code: 'pt' as const,
-      label: 'Português',
-      flag: '🇧🇷',
-    },
-    {
-      code: 'en' as const,
-      label: 'English',
-      flag: '🇺🇸',
-    },
-  ]
+  const languageLabel = language.toUpperCase()
 
   const scrollToSection = (href: string) => {
     if (href === '#contact') {
@@ -231,61 +207,19 @@ function Header() {
           {/* Controls */}
           <div className="flex items-center gap-2">
             {/* Language Toggle */}
-            <div
-              ref={languageSwitcherRef}
-              className="relative"
-            >
-              <button
-                type="button"
-                onClick={() => setIsLanguageOpen((prev) => !prev)}
-                className={clsx(
-                  'inline-flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-semibold uppercase transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
-                  isDark
-                    ? 'border-white/15 bg-white/5 text-white/80 hover:bg-white/10 focus-visible:ring-offset-0'
-                    : 'border-border/60 bg-white text-foreground/70 hover:text-foreground focus-visible:ring-offset-background'
-                )}
-                aria-expanded={isLanguageOpen}
-                aria-label={t('accessibility.toggleLanguage' as any)}
-              >
-                <span className="text-lg">{languageOptions.find((option) => option.code === language)?.flag}</span>
-                <ChevronDown className={clsx('h-3 w-3 transition-transform duration-200', isLanguageOpen ? 'rotate-180' : '')} />
-              </button>
-
-              {isLanguageOpen && (
-                <div
-                  className={clsx(
-                    'absolute right-0 mt-2 w-32 overflow-hidden rounded-xl border shadow-lg backdrop-blur-xl',
-                    isDark
-                      ? 'border-white/10 bg-[#0f172a]/90 text-white/80'
-                      : 'border-border/60 bg-white/95 text-foreground/70'
-                  )}
-                >
-                  {languageOptions.map((option) => (
-                    <button
-                      key={option.code}
-                      type="button"
-                      onClick={() => {
-                        handleLanguageSelect(option.code)
-                        setIsLanguageOpen(false)
-                      }}
-                      className={clsx(
-                        'flex w-full items-center gap-2 px-4 py-2 text-left text-xs font-semibold uppercase tracking-wide transition-colors duration-150',
-                        language === option.code
-                          ? isDark
-                            ? 'bg-white/15 text-white'
-                            : 'bg-primary/10 text-primary'
-                          : isDark
-                            ? 'hover:bg-white/10 hover:text-white'
-                            : 'hover:bg-muted hover:text-foreground'
-                      )}
-                    >
-                      <span className="text-lg leading-none">{option.flag}</span>
-                      <span>{option.label}</span>
-                    </button>
-                  ))}
-                </div>
+            <button
+              type="button"
+              onClick={handleLanguageToggle}
+              className={clsx(
+                'inline-flex h-10 w-10 items-center justify-center rounded-full border text-[0.7rem] font-black uppercase tracking-[0.2em] transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
+                isDark
+                  ? 'border-white/15 bg-white/5 text-white/80 hover:bg-white/10 focus-visible:ring-offset-0'
+                  : 'border-border/60 bg-white text-foreground/70 hover:text-foreground focus-visible:ring-offset-background'
               )}
-            </div>
+              aria-label={t('accessibility.toggleLanguage' as any)}
+            >
+              {languageLabel}
+            </button>
 
             {/* Theme Toggle */}
             <button
@@ -359,9 +293,4 @@ function Header() {
 }
 
 export default Header
-
-
-
-
-
 
